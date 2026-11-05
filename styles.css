@@ -947,20 +947,23 @@ body {
 }
 
 /* About Section */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1.35fr 1fr;
-  gap: 2rem;
-}
-
 .about-narrative {
   padding: 2.25rem;
 }
 
+.about-narrative-full {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.about-subgrid {
+  gap: 1.5rem;
+}
+
 .prose p {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--text-body);
-  line-height: 1.7;
+  line-height: 1.75;
   margin-bottom: 1.25rem;
 }
 
